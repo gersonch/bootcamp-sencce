@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Gerson Contreras Henriquez</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3a30102a45.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+
+  <body class="all">
+    <header>
+      <nav
+        class="nav container-fluid navbar navbar-expand-md navbar-dark bg-dark"
+      >
+        <a class="navbar-brand" href="#">Gerson Contreras Henriquez</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn text-light d-flex">
+          <div id="moon"><i class="fa-solid fa-moon"></i></div>
+          <div id="sun" class="d-none"><i class="fa-solid fa-sun"></i></div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="my-4 w-">
+      <section
+        id="about"
+        class="container mt-5 d-flex flex-column justify-items-center align-items-center"
+      >
+        <div class="mr-10 d-flex">
+          <img
+            src="https://avatars.githubusercontent.com/u/78560393?v=4"
+            alt="perfil usuario"
+            class="rounded-circle"
+            width="100px"
+          />
+        </div>
+        <div class="p-3">
+          <h1>Sobre mí</h1>
+        </div>
+        <p class="w-50">
+          Soy Gerson Contreras Henriquez, un estudiante de desarrollo web.
+          Anteriormente me desempeñaba como profesor de música.<br />
+          Me apasiona la tecnología y estoy en constante aprendizaje para
+          mejorar mis habilidades como desarrollador web.
+        </p>
+      </section>
+
+      <section id="skills" class="container mt-5">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>Astro</li>
+          <li>Tailwind CSS</li>
+          <li>Bootstrap</li>
+          <li>HTML5</li>
+          <li>CSS</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="container mt-5">
+        <h2>Proyectos</h2>
+        <ul>
+          <li>Sitio web Colegio Alcazares de Ñuble</li>
+          <li>Sitio web Comunidad Clan</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="container mt-5">
+        <h2>Contacto</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="text-center py-4">
+      <p>
+        Correo: gersonch97@gmail.com | Teléfono: +56950159410 | Instagram:
+        @gerssoonn | GitHub: gersonch
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

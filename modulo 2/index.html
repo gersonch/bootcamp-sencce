@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Regístrate</h1>
+    <form action="confirmacion.html">
+      <input type="text" name="name" id="name" placeholder="Nombre" required />
+      <input
+        type="text"
+        name="last-name"
+        id="last-name"
+        placeholder="Apellido"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Contraseña"
+        required
+      />
+
+      <input type="submit" id="btn" value="Regístrate" class="submit" />
+    </form>
+
+    <div class="text">
+      <p>¿Ya eres miembro? <a href="index.html">Inicia tu Sesion</a></p>
+    </div>
+
+    <style>
+      body {
+        text-align: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+      }
+
+      input {
+        width: 35%;
+      }
+
+      .submit {
+        width: 20%;
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+body {
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+}
+h1 {
+  margin: 1rem;
+  padding: 1rem;
+}
+.container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  padding: 1rem;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #3498db;
+}
+.secondary-btn {
+  background-color: #2ecc71;
+}
+.succes-btn {
+  background-color: #27ae60;
+}
+.danger-btn {
+  background-color: #e74c3c;
+}
