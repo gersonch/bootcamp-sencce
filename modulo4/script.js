@@ -1,7 +1,7 @@
 const div = document.getElementById("div");
 const URL = "https://swapi.dev/api/people/";
 
-for (let i = 1; i < 50; i++) {
+for (let i = 1; i < 15; i++) {
   fetch(`${URL + i}/`)
     .then((res) => res.json())
     .then((data) => {
